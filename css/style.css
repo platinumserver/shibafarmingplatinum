@@ -1174,6 +1174,60 @@ i.alamat.alamat-3{
         font-size: 29px;
     }
 }
+/* bagian awal about us */
+#privacy-link{
+    transform: translateY(-50px);
+}
+.privacy{
+    width: 100%;
+    height: auto;
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 180px 400px ;
+    margin-bottom: 20px;
+    transform: translateY(-50px);
+}
+.privacy-text{
+    display: flex;
+    /* margin: auto; */
+    flex-direction: column;
+    order: 2;
+    grid-row: 2 / 3;
+    grid-column: 2/ 3;
+}
+.privacy-h2:not(.asli){
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    /* grid-row: 1 / 2; */
+}
+.privacy-h2.asli{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+.privacy-h2.asli::after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transform: translate( 10% , -50%);
+    background-color: #0252B2;
+}
+.privacy-mini-text{
+    color: #0252B2;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.privacy-p{
+    text-align: justify;
+    text-indent: 50px;
+    margin-top: 20px;
+    font-weight: 600;
+}
 .privacy-img{
     grid-row: 1 / 3;
 }
