@@ -335,6 +335,7 @@ const Restaurants = () => {
                 id: 6,
                 image: "https://newsroompost.com/wp-content/uploads/2021/06/shiba-1-1.jpg",
                 title: "Shiba inu"
+    } 
             }].map((restaurant) => {
             const styles = {
                 backgroundImage: `url(${restaurant.image})`
