@@ -331,7 +331,7 @@ const Restaurants = () => {
                 image: "https://static.mytuner.mobi/media/tvos_radios/kZDeHWtfTU.png",
                 title: "Highlights radio"
         }, {
-                desc: "Shiba Inu is an Ethereum-based altcoin that features the Shiba Inu hunting dog as its mascot. It is widely considered to be an alternative to Dogecoin and is touted as the Dogecoin killer by its supporters, a community known as the SHIBArmy.",
+                desc: "Shiba Inu is an Ethereum-based altcoin that features the Shiba Inu hunting dog as its mascot.",
                 id: 6,
                 image: "https://newsroompost.com/wp-content/uploads/2021/06/shiba-1-1.jpg",
                 title: "Shiba inu"
