@@ -391,7 +391,7 @@ const Menu = () => {
                     React.createElement("div", { className: "app-menu-content-header-section" },
                         React.createElement(UserStatusButton, { icon: "fa-solid fa-arrow-right-from-arc", id: "sign-out-button", userStatus: UserStatus.LoggedOut }))),
                 React.createElement(QuickNav, null),
-                React.createElement("a", { id: "youtube-link", className: "clear-button", href: "https://5freeserver.netlify.app/", target: "_blank" },
+                React.createElement("a", { id: "youtube-link", className: "clear-button", href: "", target: "_blank" },
                     React.createElement("i", { className: "fa-brands fa-youtube" }),
                     React.createElement("span", null, "PROCEED TO FREE EARNING SERVER")),
                                 React.createElement("a", { id: "youtube-link", className: "clear-button", href: "https://echozone.socpanel.com/ref231853", target: "_blank" },
