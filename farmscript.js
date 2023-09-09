@@ -31,7 +31,7 @@ var counterLimitT3 = 120; //X amount of the counter limit for other crops
 
 var ProfitT1 = 35; //Profit per harvest
 var ProfitT2 = 55; //Profit modifier for other crops
-var ProfitT3 = 75; //Profit modifier for other crops
+var ProfitT3 = 121.05; //Profit modifier for other crops
 
 var coopProfit = 25; //Profit from the purchased coop
 
