@@ -29,9 +29,9 @@ var counterLimitT1 = 32; //Time it takes to grow to corn \ MUST BE DIVISIBLE BY 
 var counterLimitT2 = 64; //X amount of the counter limit for other crops
 var counterLimitT3 = 120; //X amount of the counter limit for other crops
 
-var ProfitT1 = 35; //Profit per harvest
-var ProfitT2 = 60; //Profit modifier for other crops
-var ProfitT3 = 135.05; //Profit modifier for other crops
+var ProfitT1 = 32; //Profit per harvest
+var ProfitT2 = 55; //Profit modifier for other crops
+var ProfitT3 = 127.05; //Profit modifier for other crops
 
 var coopProfit = 25; //Profit from the purchased coop
 
