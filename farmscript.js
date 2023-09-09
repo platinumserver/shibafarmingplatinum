@@ -18,7 +18,7 @@ $(document).on("click", "#resetAll", function() {
 
 //Set Game Variables
 var NumPlots = 0; //a reset for the number of plots a user has
-var Money = 160; //the amount of money to start
+var Money = 140; //the amount of money to start
 var PlotCost = 100; //Cost of a Plot of land
 
 var SeedCostT1 = 30; //Cost of seeds to plant
@@ -29,11 +29,11 @@ var counterLimitT1 = 32; //Time it takes to grow to corn \ MUST BE DIVISIBLE BY 
 var counterLimitT2 = 64; //X amount of the counter limit for other crops
 var counterLimitT3 = 120; //X amount of the counter limit for other crops
 
-var ProfitT1 = 55; //Profit per harvest
-var ProfitT2 = 95; //Profit modifier for other crops
-var ProfitT3 = 180; //Profit modifier for other crops
+var ProfitT1 = 35; //Profit per harvest
+var ProfitT2 = 55; //Profit modifier for other crops
+var ProfitT3 = 125; //Profit modifier for other crops
 
-var coopProfit = 150; //Profit from the purchased coop
+var coopProfit = 25; //Profit from the purchased coop
 
 //Get DOM elements
 var cropChooserWrapper = $("#cropChooserWrapper");
@@ -83,7 +83,7 @@ if (MoneyFromStorage == null || MoneyFromStorage == "NaN") {
   //same as above
   Money = parseInt(MoneyFromStorage);
 }
-console.log("you have $" + Money);
+console.log("you have shiba" + Money);
 
 //SET STUFF
 $("#moneyBox").html(Money);
@@ -510,7 +510,7 @@ function SaveNumPlots() {
 //Save Money as it is purchased
 function SaveMoneyAmmount(moneyAmount) {
   localStorage.setItem("NumMoney", moneyAmount);
-  //console.log("You have $" + moneyAmount);
+  //console.log("You have shiba" + moneyAmount);
 }
 
 //Show Coop Buy Option
@@ -549,7 +549,7 @@ function buyTheCoop() {
     SaveMoneyAmmount(Money);
     MoneyBox.html(Money);
     MoneyBoxMessage.html("- $" + 10000);
-    console.log("You Have Used: $10,000");
+    console.log("You Have Used: 10,000 shiba");
     console.log("You now own the Coop!");
     animateMoneyTooltip();
     //Save Local Storage Boolean
