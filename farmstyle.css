@@ -605,7 +605,7 @@ footer {
     font-family: 'Heebo', sans-serif;
     font-size: 15px;
     position: absolute;
-    top: 90%;
+    top: 92.5%;
     left: 50%;
     transform: translate(-50%, -5%);
 }
