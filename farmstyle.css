@@ -601,3 +601,7 @@ html body {
     font-family:arial,sans-serif;
     color:#fff;
 }
+iframe {
+  bottom: 70px;
+  right: 30px;
+}
