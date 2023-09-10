@@ -609,11 +609,11 @@ footer {
     left: 50%;
     transform: translate(-50%, -5%);
 }
-footer-link {
+.footer-link {
     color: #C6563B;
     text-decoration: none;
 }
-footer-background {
+.footer-background {
     background-color:black;
     opacity: 0.95;
     position: absolute;
