@@ -601,13 +601,7 @@ html body {
     font-family:arial,sans-serif;
     color:#fff;
 }
-iframe {
-  display: flex;
-  position: absolute;
-  bottom: 95px;
-  right: 50px;
-}
-.footer {
+footer {
     font-family: 'Heebo', sans-serif;
     font-size: 15px;
     position: absolute;
@@ -615,11 +609,11 @@ iframe {
     left: 50%;
     transform: translate(-50%, -5%);
 }
-.footer-link {
+footer-link {
     color: #C6563B;
     text-decoration: none;
 }
-.footer-background {
+footer-background {
     background-color:black;
     opacity: 0.95;
     position: absolute;
