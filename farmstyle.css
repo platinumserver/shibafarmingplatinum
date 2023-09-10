@@ -602,6 +602,7 @@ html body {
     color:#fff;
 }
 iframe {
+  position: absolute;
   bottom: 70px;
   right: 30px;
 }
