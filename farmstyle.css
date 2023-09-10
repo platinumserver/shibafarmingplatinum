@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
+q@import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
 html {
   font-family: "Cairo", sans-serif;
   height: 100%;
@@ -606,4 +606,27 @@ iframe {
   position: absolute;
   bottom: 95px;
   right: 50px;
+}
+.footer {
+    font-family: 'Heebo', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}
+.footer-link {
+    color: #C6563B;
+    text-decoration: none;
+}
+.footer-background {
+    background-color:black;
+    opacity: 0.95;
+    position: absolute;
+    top: 49.5%;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%, -50.5%);
+    width: 60rem;
+    height: 5rem;
 }
