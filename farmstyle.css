@@ -627,7 +627,7 @@ footer {
 }
 
   .action {
-  position: fixed;
+  position: absolute;
   bottom: 50px;
   left: 50px;
   width: 50px;
@@ -638,7 +638,7 @@ footer {
 }
 
 .action button {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100%;
   display: flex;
