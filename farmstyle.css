@@ -50,6 +50,25 @@ html body {
 .gameWrapper .coop-buy:hover {
   transform: scale(1.1);
 }
+.gameWrapper .coop-buy1 {
+  position: absolute;
+  top: 16px;
+  left: 132px;
+  background-image: url(https://i.imgur.io/d7t41Xw_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
+  height: 180px;
+  width: 140px;
+  background-size: initial;
+  background-repeat: no-repeat;
+  transform: scale(1);
+  cursor: pointer;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: pixelated;
+  transition: transform 0.1s ease-out;
+}
+.gameWrapper .coop-buy1:hover {
+  transform: scale(1.1);
+}
 .gameWrapper .coop {
   background-image: url(https://i.imgur.com/rGVqMYL.png);
   width: 100%;
