@@ -50,7 +50,7 @@ html body {
 .gameWrapper .coop-buy:hover {
   transform: scale(1.1);
 }
-.gameWrapper .coop-buy2 {
+.gameWrapper2 .coop-buy2 {
   position: absolute;
   bottom: 0.1%;
   right: 3px;
@@ -66,7 +66,7 @@ html body {
       image-rendering: pixelated;
   transition: transform 0.1s ease-out;
 }
-.gameWrapper .coop-buy2:hover {
+.gameWrapper2 .coop-buy2:hover {
   transform: scale(1.1);
 }
 .gameWrapper .coop {
