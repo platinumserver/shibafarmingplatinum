@@ -627,7 +627,7 @@ footer {
 }
 
   .action {
-   position: fixed;
+   position: relative;
   bottom: 50px;
   left: 50px;
   width: 50px;
@@ -665,7 +665,7 @@ footer {
 }
 
 .action ul {
-  position: absolute;
+  position: relative;
   bottom: 100px;
   left: 12px;
   background-color: #fff;
