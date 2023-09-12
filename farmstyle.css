@@ -674,8 +674,7 @@ footer {
   visibility: hidden;
   transition: 0.3s;
 }
-
-.gameWrapper .action.active ul {
+ .action.active ul {
   opacity: 1;
   visibility: visible;
   transition: 0.3s;
