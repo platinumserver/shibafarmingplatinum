@@ -630,8 +630,8 @@ footer {
   background-image: url(https://i.imgur.io/d7t41Xw_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
   bottom: 80px;
   left: 50px;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 0 5px 5px rgba(0,0,0,0.1);
@@ -661,7 +661,7 @@ footer {
 
 .gameWrapper .action ul {
   position: absolute;
-  bottom: 55px;
+  bottom: 70px;
   background-color: #fff;
   min-width: 100px;
   display: grid;
@@ -680,5 +680,5 @@ footer {
   opacity: 1;
   visibility: visible;
   transition: 0.3s;
-  bottom: 65px;
+  bottom: 70px;
 }
