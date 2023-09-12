@@ -654,10 +654,14 @@ footer {
   transition: 0.3s ease-in-out;
   outline: none;
   cursor: pointer;
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: pixelated;
+  transition: transform 0.1s ease-out;
 }
 
 .action.active button {
-  transform: rotate(135deg);
+  transform: scale(1);
 }
 
 .action ul {
