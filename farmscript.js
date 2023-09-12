@@ -611,3 +611,8 @@ function checkTime(i) {
     }
     return i;
 }
+
+const action = document.querySelector('.action');
+action.addEventListener('click', ()=> {
+  action.classList.toggle('active')
+})
