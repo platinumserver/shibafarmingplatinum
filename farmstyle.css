@@ -66,7 +66,7 @@ html body {
       image-rendering: pixelated;
   transition: transform 0.1s ease-out;
 }
-.gameWrapper2 .coop-buy2:hover {
+.gameWrapper .coop-buy2:hover {
   transform: scale(1.1);
 }
 .gameWrapper .coop {
