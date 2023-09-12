@@ -236,7 +236,7 @@ html body {
   width: 100%;
 }
 .gameWrapper .crop-chooser .crop-type-option.corn {
-  background-image: url("https://i.imgur.io/P6V0DMp_d.webp?maxwidth=640&shape=thumb&fidelity=medium");
+  background-image: url("https://i.imgur.io/dPB5wbR_d.webp?maxwidth=640&shape=thumb&fidelity=medium");
   background-position: -200px;
   background-position: -400px;
   background-size: auto 80px;
@@ -311,7 +311,7 @@ html body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("https://i.imgur.io/P6V0DMp_d.webp?maxwidth=640&shape=thumb&fidelity=medium");
+  background-image: url("https://i.imgur.io/dPB5wbR_d.webp?maxwidth=640&shape=thumb&fidelity=medium");
 }
 .gameWrapper .plotWrapper .plotBox.available {
   background-position: 0px;
