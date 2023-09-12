@@ -626,9 +626,9 @@ footer {
     height: 5rem;
 }
 .gameWrapper .action {
-	position: absolute;
+  position: absolute;
   top: 16px;
-  left: 132px;
+  left: 1px;
   background-image: url(https://i.imgur.io/d7t41Xw_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
   height: 180px;
   width: 140px;
