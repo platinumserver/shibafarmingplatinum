@@ -50,41 +50,7 @@ html body {
 .gameWrapper .coop-buy:hover {
   transform: scale(1.1);
 }
-.gameWrapper2 {
-  box-sizing: border-box;
-  height: 600px;
-  width: 400px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 12;
-  background-image: url(https://i.imgur.io/FjQJmCU_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 10px;
-  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
-  position: relative;
-}
-.gameWrapper .coop-buy2 {
-  position: absolute;
-  top: 1px;
-  left: 3px;
-  background-image: url(https://i.imgur.io/d7t41Xw_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
-  height: 180px;
-  width: 140px;
-  background-size: initial;
-  background-repeat: no-repeat;
-  transform: scale(1);
-  cursor: pointer;
-  -ms-interpolation-mode: nearest-neighbor;
-      image-rendering: -moz-crisp-edges;
-      image-rendering: pixelated;
-  transition: transform 0.1s ease-out;
-}
-.gameWrapper .coop-buy2:hover {
-  transform: scale(1.1);
-}
+
 .gameWrapper .coop {
   background-image: url(https://i.imgur.com/rGVqMYL.png);
   width: 100%;
@@ -180,103 +146,6 @@ html body {
   border: 2px solid white;
 }
 .gameWrapper .confirm-wrapper.show {
-  transform: scale(1);
-}
-.gameWrapper .coop2 {
-  background-image: url(https://i.imgur.com/rGVqMYL.png);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  pointer-events: none;
-  display: none;
-}
-.gameWrapper .coop.show2 {
-  display: block;
-}
-.gameWrapper .confirm-wrapper2 {
-  display: flex;
-  flex-wrap: wrap;
-  height: auto;
-  width: 90%;
-  box-sizing: border-box;
-  background: #576f46;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: all 0.2s linear;
-  align-content: flex-start;
-  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
-  z-index: 2;
-  position: absolute;
-  padding: 40px 20px 20px 20px;
-  color: white;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 1.4em;
-  transform: scale(0);
-}
-.gameWrapper .confirm-wrapper2 span {
-  font-size: 14px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.5);
-}
-.gameWrapper .confirm-wrapper2 .close2 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  font-weight: 800;
-  cursor: pointer;
-  padding-top: 15px;
-  padding-right: 15px;
-}
-.gameWrapper .confirm-wrapper2 .close2 svg2 {
-  height: 20px;
-  width: 20px;
-}
-.gameWrapper .confirm-wrapper2 .close2 svg2 polygon2:last-of-type {
-  fill: #ffd515;
-}
-.gameWrapper .confirm-wrapper2 .close2 svg2 polygon2:first-of-type {
-  fill: rgba(0, 0, 0, 0.5);
-}
-.gameWrapper .confirm-wrapper2 .close2 svg2:hover polygon2:last-of-type {
-  fill: #ff4345 !important;
-}
-.gameWrapper .confirm-wrapper2 .text2 {
-  width: 100%;
-  margin-bottom: 10px;
-}
-.gameWrapper .confirm-wrapper2 .buttons2 {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.gameWrapper .confirm-wrapper2 .buttons2 .button2 {
-  background: white;
-  padding: 5px 20px;
-  color: #415234;
-  font-weight: bold;
-  font-size: 15px;
-  border-radius: 20px;
-  border: 2px solid #415234;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  cursor: pointer;
-}
-.gameWrapper .confirm-wrapper2 .buttons2 .button2:hover {
-  background: #68a73c;
-  color: white;
-  border: 2px solid white;
-}
-.gameWrapper .confirm-wrapper2.show2 {
   transform: scale(1);
 }
 .gameWrapper .crop-chooser {
