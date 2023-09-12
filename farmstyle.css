@@ -628,8 +628,9 @@ footer {
 
   .action {
     position: absolute;
-  top: 50px;
-  left: 5px;
+  bottom: 50px;
+  left: 5
+    15px;
   width: 50px;
   height: 50px;
     backroubd image:
