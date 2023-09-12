@@ -658,8 +658,8 @@ footer {
   transform: rotate(135deg);
 }
 
-.gameWrapper .action ul {
-  position: fixed;
+ .action ul {
+  position: absolute;
   bottom: 90px;
   background-color: black;
   min-width: 100px;
