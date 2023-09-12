@@ -635,8 +635,7 @@ footer {
   border-radius: 50%;
   box-shadow: 0 5px 5px rgba(0,0,0,0.1);
 }
-
-.gameWrapper .action button {
+ .action button {
   background-image: url(https://i.imgur.io/d7t41Xw_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
   position: relative;
   width: 100%;
@@ -654,7 +653,7 @@ footer {
   cursor: pointer;
 }
 
-.gameWrapper .action.active button {
+.action.active button {
   transform: rotate(135deg);
 }
 
