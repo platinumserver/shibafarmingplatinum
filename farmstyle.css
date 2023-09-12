@@ -52,8 +52,8 @@ html body {
 }
 .gameWrapper .coop-buy2 {
   position: absolute;
-  bottom: 1%;
-  left: 132px;
+  bottom: 0.1%;
+  left: 10px;
   background-image: url(https://i.imgur.io/d7t41Xw_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
   height: 180px;
   width: 140px;
