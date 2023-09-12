@@ -85,7 +85,7 @@ html body {
 .gameWrapper .coop-buy2:hover {
   transform: scale(1.1);
 }
-.gameWrapper .coop {
+.gameWrapper .coop2 {
   background-image: url(https://i.imgur.com/rGVqMYL.png);
   width: 100%;
   height: 100%;
@@ -99,7 +99,7 @@ html body {
   pointer-events: none;
   display: none;
 }
-.gameWrapper .coop.show {
+.gameWrapper .coop.show2 {
   display: block;
 }
 .gameWrapper .confirm-wrapper {
