@@ -659,9 +659,9 @@ footer {
 }
 
 .gameWrapper .action ul {
-  position: relative;
+  position: fixed;
   bottom: 90px;
-  background-color: #fff;
+  background-color: black;
   min-width: 100px;
   display: grid;
   grid-gap: 10px;
