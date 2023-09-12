@@ -627,7 +627,7 @@ footer {
 }
 
   .action {
-   position: fixed;
+   position: absolute;
   bottom: 100px;
   left: 50px;
   width: 50px;
@@ -661,7 +661,7 @@ footer {
 }
 
 .action.active button {
-  transform: scale(1);
+  transform: rotate(135deg);
 }
 
 .action ul {
