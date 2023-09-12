@@ -234,17 +234,17 @@ html body {
   padding-top: 15px;
   padding-right: 15px;
 }
-.gameWrapper .confirm-wrapper .close svg {
+.gameWrapper .confirm-wrapper2 .close2 svg2 {
   height: 20px;
   width: 20px;
 }
-.gameWrapper .confirm-wrapper .close svg polygon:last-of-type {
+.gameWrapper .confirm-wrapper2 .close2 svg2 polygon2:last-of-type {
   fill: #ffd515;
 }
-.gameWrapper .confirm-wrapper .close svg polygon:first-of-type {
+.gameWrapper .confirm-wrapper2 .close2 svg2 polygon2:first-of-type {
   fill: rgba(0, 0, 0, 0.5);
 }
-.gameWrapper .confirm-wrapper .close svg:hover polygon:last-of-type {
+.gameWrapper .confirm-wrapper2 .close2 svg2:hover polygon2:last-of-type {
   fill: #ff4345 !important;
 }
 .gameWrapper .confirm-wrapper2 .text2 {
