@@ -684,7 +684,7 @@ footer {
 .playlist {
   position: fixed;
   bottom: 80px;
-  right: 30%;
+  right: 20%;
   width: 80px;
   height: 80px;
   background-color:black;
@@ -714,8 +714,8 @@ footer {
 }
 
  .playlist ul {
-   height: 700;
-   width: 500;
+   height: 40px;
+   width: 50px;
   position: absolute;
   bottom: 90px;
   background-color: black;
