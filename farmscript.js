@@ -617,8 +617,8 @@ action.addEventListener('click', ()=> {
   action.classList.toggle('active')
 })
 
-const chatbox = document.querySelector('.chatbox');
-chatbox.addEventListener('click', ()=> {
-  chatbox.classList.toggle('active')
+const playlist = document.querySelector('.playlist');
+playlist.addEventListener('click', ()=> {
+  playlist.classList.toggle('active')
 })
 
