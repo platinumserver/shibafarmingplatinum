@@ -630,8 +630,8 @@ footer {
   bottom: 80px;
   left: 50px;
   width: 80px;
-  height: 80px;
-  background-color: #fff;
+  height: 100px;
+  background-color:black;
   border-radius: 50%;
   box-shadow: 0 5px 5px rgba(0,0,0,0.1);
 }
@@ -647,7 +647,7 @@ footer {
   padding: 0;
   border-radius: 40%;
   font-size: 40px;
-  color: #a13dea;
+  color: black;
   transition: 0.3s ease-in-out;
   outline: none;
   cursor: pointer;
