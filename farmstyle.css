@@ -674,7 +674,7 @@ footer {
   transition: 0.3s;
 }
  .action.active ul {
-  opacity: 0;
+  opacity: 1;
   visibility: visible;
   transition: 0.3s;
   bottom: 90px;
