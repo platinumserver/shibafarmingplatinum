@@ -658,8 +658,8 @@ footer {
 }
 
  .action ul {
-   height: 700;
-   width: 500;
+   height: 300px;
+   width: 400px;
   position: absolute;
   bottom: 90px;
   background-color: black;
