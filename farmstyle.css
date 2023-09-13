@@ -680,27 +680,11 @@ footer {
   transition: 0.3s;
   bottom: 90px;
 }
-.chatbox {
-  box-sizing: border-box;
-  height: 900px;
-  width: 600px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  z-index: 12;
-  background-image: url(https://i.imgur.com/h3pV9JT.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  border-radius: 10px;
-  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
-  position: relative;
-  }
-  
+
 .chatbox {
   position: fixed;
   bottom: 80px;
-  left: 80px;
+  left: 100px;
   width: 80px;
   height: 80px;
   background-color:black;
