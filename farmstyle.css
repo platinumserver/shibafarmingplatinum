@@ -715,7 +715,7 @@ footer {
 
  .playlist ul {
    height: 250px;
-   width: 250px;
+   width: 300px;
   position: absolute;
   bottom: 90px;
   background-color: black;
@@ -734,5 +734,5 @@ footer {
   opacity: 1;
   visibility: visible;
   transition: 0.3s;
-  bottom: 80px;
+  bottom: 90px;
 }
