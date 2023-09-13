@@ -700,7 +700,7 @@ footer {
 .chatbox {
   position: fixed;
   bottom: 80px;
-  left: 50px;
+  left: 30px;
   width: 80px;
   height: 80px;
   background-color:black;
