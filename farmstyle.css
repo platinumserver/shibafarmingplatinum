@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
+Q@import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
 html {
   font-family: "Cairo", sans-serif;
   height: 100%;
@@ -685,7 +685,7 @@ footer {
   position: fixed;
   bottom: 80px;
   right: 53%;
-  width: 80px;
+  width: 100px;
   height: 80px;
   background-color:black;
   border-radius: 50%;
