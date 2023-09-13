@@ -681,7 +681,7 @@ footer {
   bottom: 90px;
 }
 
-.chatbox {
+.playlist {
   position: fixed;
   bottom: 80px;
   right: 80px;
@@ -691,7 +691,7 @@ footer {
   border-radius: 50%;
   box-shadow: 0 5px 5px rgba(0,0,0,0.1);
 }
- .chatbox button {
+ .playlist button {
    position: relative;
   background-image: url(https://i.imgur.io/d7t41Xw_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
   width: 100%;
@@ -709,11 +709,11 @@ footer {
   cursor: pointer;
 }
 
-.chatbox.active button {
+.playlist.active button {
   transform: rotate(135deg);
 }
 
- .chatbox ul {
+ .playlist ul {
    height: 700;
    width: 500;
   position: absolute;
@@ -730,7 +730,7 @@ footer {
   visibility: hidden;
   transition: 0.3s;
 }
- .chatbox.active ul {
+ .playlist.active ul {
   opacity: 1;
   visibility: visible;
   transition: 0.3s;
