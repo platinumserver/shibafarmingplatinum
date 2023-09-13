@@ -658,8 +658,8 @@ footer {
 }
 
  .action ul {
-   height: 300px;
-   width: 400px;
+   height: 250px;
+   width: 250px;
   position: absolute;
   bottom: 90px;
   background-color: black;
@@ -714,11 +714,10 @@ footer {
 }
 
  .playlist ul {
-   height: 500px;
-   width: 500px;
+   height: 250px;
+   width: 250px;
   position: absolute;
-  bottom: 8
-    90px;
+  bottom: 90px;
   background-color: black;
   display: grid;
   grid-gap: 10px;
