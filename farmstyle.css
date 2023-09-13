@@ -625,7 +625,7 @@ footer {
     width: 60rem;
     height: 5rem;
 }
-.gameWrapper .action {
+.action {
   position: fixed;
   bottom: 80px;
   left: 50px;
@@ -669,7 +669,7 @@ footer {
   list-style-type: none;
   margin: 0;
   text-align: center;
-  opacity: 1;
+  opacity: 0;
   visibility: hidden;
   transition: 0.3s;
 }
