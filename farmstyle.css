@@ -663,7 +663,6 @@ footer {
   position: absolute;
   bottom: 90px;
   background-color: black;
-  min-width: 100px;
   display: grid;
   grid-gap: 10px;
   border-radius: 20px;
