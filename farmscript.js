@@ -617,4 +617,8 @@ action.addEventListener('click', ()=> {
   action.classList.toggle('active')
 })
 
+const chatbox = document.querySelector('.chatbox');
+chatbox.addEventListener('click', ()=> {
+  chatbox.classList.toggle('active')
+})
 
