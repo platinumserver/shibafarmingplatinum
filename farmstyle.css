@@ -670,11 +670,11 @@ footer {
   margin: 0;
   text-align: center;
   opacity: 0;
-  visibility: hidden;
+  visibility: visible;
   transition: 0.3s;
 }
  .action.active ul {
-  opacity: 5;
+  opacity: -0.1;
   visibility: visible;
   transition: 0.3s;
   bottom: 90px;
