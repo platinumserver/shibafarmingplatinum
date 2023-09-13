@@ -714,10 +714,11 @@ footer {
 }
 
  .playlist ul {
-   height: 100%;
-   width: 100%;
+   height: 500px;
+   width: 500px;
   position: absolute;
-  bottom: 80px;
+  bottom: 8
+    90px;
   background-color: black;
   display: grid;
   grid-gap: 10px;
