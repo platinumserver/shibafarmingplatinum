@@ -1,4 +1,4 @@
-Q@import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
 html {
   font-family: "Cairo", sans-serif;
   height: 100%;
@@ -685,7 +685,7 @@ footer {
   position: fixed;
   bottom: 80px;
   right: 53%;
-  width: 100px;
+  width: 80px;
   height: 80px;
   background-color:black;
   border-radius: 50%;
@@ -715,7 +715,7 @@ footer {
 
  .playlist ul {
    height: 400;
-   width: 500;
+   width: 900;
   position: absolute;
   bottom: 80px;
   background-color: black;
