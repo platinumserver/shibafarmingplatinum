@@ -658,6 +658,8 @@ footer {
 }
 
  .action ul {
+   height: 700;
+   width: 500;
   position: absolute;
   bottom: 90px;
   background-color: black;
@@ -681,8 +683,8 @@ footer {
 }
 .chatbox {
   box-sizing: border-box;
-  height: 600px;
-  width: 400px;
+  height: 900px;
+  width: 600px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
