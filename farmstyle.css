@@ -740,7 +740,7 @@ footer {
 .normaltopup {
   position: fixed;
   bottom: 80px;
-  right: 53%;
+  right: 63%;
   width: 80px;
   height: 80px;
   background-color:black;
@@ -773,7 +773,7 @@ footer {
    height: 250px;
    width: 300px;
   position: absolute;
-  bottom: 100px;
+  bottom: 90px;
   background-color: black;
   display: grid;
   grid-gap: 10px;
