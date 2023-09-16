@@ -736,3 +736,59 @@ footer {
   transition: 0.3s;
   bottom: 90px;
 }
+
+.normaltopup {
+  position: fixed;
+  bottom: 80px;
+  right: 53%;
+  width: 80px;
+  height: 80px;
+  background-color:black;
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+ .normaltopup button {
+   position: relative;
+  background-image: url(https://i.imgur.io/Qdbop2E_d.webp?maxwidth=640&shape=thumb&fidelity=medium);
+  width: 100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0;
+  border-radius: 40%;
+  font-size: 40px;
+  color: black;
+  transition: 0.3s ease-in-out;
+  outline: none;
+  cursor: pointer;
+}
+
+.normaltopup.active button {
+  transform: rotate(135deg);
+}
+
+ .normaltopup ul {
+   height: 250px;
+   width: 300px;
+  position: absolute;
+  bottom: 100px;
+  background-color: black;
+  display: grid;
+  grid-gap: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+ .normaltopup.active ul {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s;
+  bottom: 90px;
+}
