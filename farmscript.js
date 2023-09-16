@@ -622,3 +622,7 @@ playlist.addEventListener('click', ()=> {
   playlist.classList.toggle('active')
 })
 
+const normaltopup = document.querySelector('.normaltopup');
+normaltopup.addEventListener('click', ()=> {
+  normaltopup.classList.toggle('active')
+})
