@@ -774,7 +774,7 @@ footer {
    width: 300px;
   position: absolute;
   bottom: 90px;
-   left: 53%;
+   right: 53%;
   background-color: black;
   display: grid;
   grid-gap: 10px;
