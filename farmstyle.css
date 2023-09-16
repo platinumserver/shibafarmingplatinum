@@ -771,7 +771,7 @@ footer {
 
  .normaltopup ul {
    height: 250px;
-   width: 300px;
+   width: 100px;
   position: absolute;
   bottom: 90px;
   right: 50%;
