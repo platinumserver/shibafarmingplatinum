@@ -759,7 +759,7 @@ footer {
   padding: 0;
   border-radius: 40%;
   font-size: 40px;
-  color: black;
+  color: white;
   transition: 0.3s ease-in-out;
   outline: none;
   cursor: pointer;
@@ -775,7 +775,7 @@ footer {
   position: absolute;
   bottom: 90px;
   right: 50%;
-  background-color: gray;
+  background-color: black;
   display: grid;
   grid-gap: 10px;
   border-radius: 20px;
