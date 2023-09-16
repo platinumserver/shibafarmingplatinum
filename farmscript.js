@@ -21,17 +21,17 @@ var NumPlots = 0; //a reset for the number of plots a user has
 var Money = 140; //the amount of money to start
 var PlotCost = 100; //Cost of a Plot of land
 
-var SeedCostT1 = 40; //Cost of seeds to plant
-var SeedCostT2 = 100; //Cost of seeds to plant
-var SeedCostT3 = 150; //Cost of seeds to plant
+var SeedCostT1 = 20; //Cost of seeds to plant
+var SeedCostT2 = 50; //Cost of seeds to plant
+var SeedCostT3 = 120; //Cost of seeds to plant
 
 var counterLimitT1 = 40; //Time it takes to grow to corn \ MUST BE DIVISIBLE BY 4
 var counterLimitT2 = 75; //X amount of the counter limit for other crops
 var counterLimitT3 = 130; //X amount of the counter limit for other crops
 
-var ProfitT1 = 41; //Profit per harvest
-var ProfitT2 = 102.10; //Profit modifier for other crops
-var ProfitT3 = 155.10; //Profit modifier for other crops
+var ProfitT1 = 50; //Profit per harvest
+var ProfitT2 = 150.10; //Profit modifier for other crops
+var ProfitT3 = 200.10; //Profit modifier for other crops
 
 var coopProfit = 15; //Profit from the purchased coop
 
