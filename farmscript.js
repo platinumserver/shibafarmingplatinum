@@ -33,7 +33,7 @@ var ProfitT1 = 50; //Profit per harvest
 var ProfitT2 = 150.10; //Profit modifier for other crops
 var ProfitT3 = 200.10; //Profit modifier for other crops
 
-var coopProfit = 50; //Profit from the purchased coop
+var coopProfit = 90; //Profit from the purchased coop
 
 //Get DOM elements
 var cropChooserWrapper = $("#cropChooserWrapper");
